@@ -72,3 +72,27 @@ Tokens that are currently traded on most of these chains:
     - [ ] USDC:
     - [ ] USDT:
     - [ ] ETH:
+
+# Current technical progress
+
+## Initial research phase
+### Reproducing findings from medium article
+- [ ] Script to display past APY data for a specific Curve pool
+- [ ] Script to display past APY data for multiple Curve pools, on the same chain
+- [ ] APY data for Curve pools on multiple chains
+- [ ] Compute theoretical max strategy APY under various assumptions
+    - [ ] Stay in stables, with hindsight
+    - [ ] Stay in stables+ETH, with hindsight
+
+### Experiment with realistic strategy
+    - [ ] Stables without hindsight
+        - [ ] Fixed interval rebalancing, fixed fees
+        - [ ] Fixed interval rebalancing, network fees
+        - [ ] Linear opportunity cost rebalancing, network fees
+
+### Integrate additional protocols
+    - [ ] Uniswap V2
+    - [ ] SushiSwap
+    - [ ] Uniswap V3
+    - [ ] Balancer
+    - [ ] Bancor
