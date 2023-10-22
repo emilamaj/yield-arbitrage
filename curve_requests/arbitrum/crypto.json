@@ -1,0 +1,193 @@
+{
+    "success": true,
+    "data": {
+        "poolData": [
+            {
+                "id": "crypto-0",
+                "address": "0x960ea3e3C7FB317332d990873d354E18d7645590",
+                "coinsAddresses": [
+                    "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+                    "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+                    "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000"
+                ],
+                "decimals": [
+                    "6",
+                    "8",
+                    "18",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "virtualPrice": "1038158649247905616",
+                "amplificationCoefficient": "1707629",
+                "lpTokenAddress": "0x8e0B8c8BB9db49a46697F3a5Bb8A308e744821D2",
+                "name": "Curve.fi USD-BTC-ETH",
+                "symbol": "crv3crypto",
+                "totalSupply": "2045114216787408829920",
+                "priceOracle": 29800.973118538444,
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/arbitrum/pools/tricrypto/swap",
+                        "https://arbitrum.curve.fi/tricrypto"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/arbitrum/pools/tricrypto/deposit",
+                        "https://arbitrum.curve.fi/tricrypto/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/arbitrum/pools/tricrypto/withdraw",
+                        "https://arbitrum.curve.fi/tricrypto/withdraw"
+                    ]
+                },
+                "implementation": "",
+                "zapAddress": "0xf97c707024ef0dd3e77a0824555a46b622bfb500",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+                        "usdPrice": 0.999983,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "USDT",
+                        "poolBalance": "778348282907"
+                    },
+                    {
+                        "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+                        "usdPrice": 29765,
+                        "decimals": "8",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WBTC",
+                        "poolBalance": "2604459779"
+                    },
+                    {
+                        "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+                        "usdPrice": 1635.22,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "472080855604744897668"
+                    }
+                ],
+                "usdTotal": 2325508.5609075315,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 2325508.5609075315,
+                "gaugeAddress": "0x555766f3da968ecbefa690ffd49a2ac02f47aa5f",
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "crypto-1",
+                "address": "0xA827a652Ead76c6B0b3D19dba05452E06e25c27e",
+                "coinsAddresses": [
+                    "0xD22a58f79e9481D1a88e00c343885A588b34b68B",
+                    "0x7f90122BF0700F9E7e1F688fe926940E8839F353",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000"
+                ],
+                "decimals": [
+                    "2",
+                    "18",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "virtualPrice": "1014666927335643253",
+                "amplificationCoefficient": "200000000",
+                "lpTokenAddress": "0x3dFe1324A0ee9d86337d06aEB829dEb4528DB9CA",
+                "name": "Curve EURS-2Crv",
+                "symbol": "crvEURSUSD",
+                "totalSupply": "7189756617265788552209",
+                "priceOracle": 0.9305492721593692,
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/arbitrum/pools/eursusd/swap",
+                        "https://arbitrum.curve.fi/eursusd"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/arbitrum/pools/eursusd/deposit",
+                        "https://arbitrum.curve.fi/eursusd/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/arbitrum/pools/eursusd/withdraw",
+                        "https://arbitrum.curve.fi/eursusd/withdraw"
+                    ]
+                },
+                "implementation": "",
+                "zapAddress": "0x25e2e8d104bc1a70492e2be32da7c1f8367f9d2c",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xD22a58f79e9481D1a88e00c343885A588b34b68B",
+                        "usdPrice": 1.15,
+                        "decimals": "2",
+                        "isBasePoolLpToken": false,
+                        "symbol": "EURS",
+                        "poolBalance": "741748"
+                    },
+                    {
+                        "address": "0x7f90122BF0700F9E7e1F688fe926940E8839F353",
+                        "usdPrice": 1.0135118002058885,
+                        "decimals": "18",
+                        "isBasePoolLpToken": true,
+                        "symbol": "2CRV",
+                        "poolBalance": "7142653147104225811653"
+                    }
+                ],
+                "usdTotal": 15769.265249367858,
+                "isMetaPool": true,
+                "underlyingCoins": [
+                    {
+                        "address": "0xD22a58f79e9481D1a88e00c343885A588b34b68B",
+                        "usdPrice": 1.15,
+                        "decimals": "2",
+                        "isBasePoolLpToken": false,
+                        "symbol": "EURS",
+                        "poolBalance": "741748"
+                    },
+                    {
+                        "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+                        "usdPrice": 1.001,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "USDC.e",
+                        "poolBalance": "4958793405"
+                    },
+                    {
+                        "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+                        "usdPrice": 0.999983,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "USDT",
+                        "poolBalance": "2286624160"
+                    }
+                ],
+                "usdTotalExcludingBasePool": 8530.101999999999,
+                "gaugeAddress": "0x6339ef8df0c2d3d3e7ee697e241666a916b81587",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    0,
+                    0
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            }
+        ],
+        "tvlAll": 2334038.6629075315,
+        "tvl": 2334038.6629075315
+    },
+    "generatedTimeMs": 1698013204535
+}
