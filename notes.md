@@ -6,7 +6,7 @@
 
 - Useful link to check yields on various protocols https://defillama.com/yields
 
-- Note on exposure risks: some protocols only give yields to multiple tokens at the same time e.g. in pairs, etc (Uniswap, SushiSwap, Curve, Balancer, Bancor). Single-asset protocols can provide less risks in that regard (Aave, Compound) but also often only in stablecoins. (Thus providing less yield ??)
+- Note on exposure risks: some protocols only give yields to multiple tokens at the same time e.g. in pairs, etc (Uniswap, SushiSwap, Curve, Balancer). Single-asset protocols can provide less risks in that regard (Aave, Bancor, Compound) but also often only in stablecoins. (Thus providing less yield ??)
 
 - Only some tokens are available on multiple chains, Although the ones with top-market cap are usually available on most chains.
 
@@ -77,8 +77,8 @@ Tokens that are currently traded on most of these chains:
 
 ## Initial research phase
 ### Reproducing findings from medium article
-- [ ] Script to display past APY data for a specific Curve pool
-- [ ] Script to display past APY data for multiple Curve pools, on the same chain
+- [x] Script to display past APY data for a specific Curve pool
+- [x] Script to display past APY data for multiple Curve pools, on the same chain
 - [ ] APY data for Curve pools on multiple chains
 - [ ] Compute theoretical max strategy APY under various assumptions
     - [ ] Stay in stables, with hindsight
