@@ -1,0 +1,1734 @@
+{
+    "success": true,
+    "data": {
+        "poolData": [
+            {
+                "id": "factory-tricrypto-0",
+                "address": "0x7F86Bf177Dd4F3494b841a37e810A34dD56c829B",
+                "coinsAddresses": [
+                    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+                ],
+                "decimals": [
+                    "6",
+                    "8",
+                    "18"
+                ],
+                "virtualPrice": "1002272481812250371",
+                "amplificationCoefficient": "1707629",
+                "name": "TricryptoUSDC",
+                "symbol": "crvUSDCWBTCWETH",
+                "totalSupply": "39880850221013638381022",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-0/swap",
+                        "https://classic.curve.fi/factory-tricrypto-0"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-0/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-0/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-0/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-0/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x7F86Bf177Dd4F3494b841a37e810A34dD56c829B",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                        "usdPrice": 0.999299,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "USDC",
+                        "poolBalance": "14940973494463"
+                    },
+                    {
+                        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+                        "usdPrice": 30763,
+                        "decimals": "8",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WBTC",
+                        "poolBalance": "48220783115"
+                    },
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "8863730106742451895415"
+                    }
+                ],
+                "usdTotal": 44613889.15493433,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 44613889.15493433,
+                "gaugeAddress": "0x85d44861d024cb7603ba906f2dc9569fc02083f6",
+                "gaugeRewards": [
+                    {
+                        "gaugeAddress": "0x85d44861d024cb7603ba906f2dc9569fc02083f6",
+                        "tokenPrice": 0.453118,
+                        "name": "Curve DAO Token",
+                        "symbol": "CRV",
+                        "decimals": "18",
+                        "tokenAddress": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+                        "apy": 0
+                    }
+                ],
+                "gaugeCrvApy": [
+                    3.700100154922945,
+                    9.250250387307362
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-1",
+                "address": "0xf5f5B97624542D72A9E06f04804Bf81baA15e2B4",
+                "coinsAddresses": [
+                    "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+                ],
+                "decimals": [
+                    "6",
+                    "8",
+                    "18"
+                ],
+                "virtualPrice": "1001238401311684176",
+                "amplificationCoefficient": "2700000",
+                "name": "TricryptoUSDT",
+                "symbol": "crvUSDTWBTCWETH",
+                "totalSupply": "49036436007589309868786",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-1/swap",
+                        "https://classic.curve.fi/factory-tricrypto-1"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-1/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-1/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-1/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-1/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0xf5f5B97624542D72A9E06f04804Bf81baA15e2B4",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                        "usdPrice": 1,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "USDT",
+                        "poolBalance": "18369982705580"
+                    },
+                    {
+                        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+                        "usdPrice": 30763,
+                        "decimals": "8",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WBTC",
+                        "poolBalance": "59509010930"
+                    },
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "10821876224786777320209"
+                    }
+                ],
+                "usdTotal": 54806412.53983669,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 54806412.53983669,
+                "gaugeAddress": "0xf29fff074f5cf755b55fbb3eb10a29203ac91ea2",
+                "gaugeRewards": [
+                    {
+                        "gaugeAddress": "0xf29fff074f5cf755b55fbb3eb10a29203ac91ea2",
+                        "tokenPrice": 0.453118,
+                        "name": "Curve DAO Token",
+                        "symbol": "CRV",
+                        "decimals": "18",
+                        "tokenAddress": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+                        "apy": 0
+                    }
+                ],
+                "gaugeCrvApy": [
+                    3.309937488624421,
+                    8.274843721561053
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-2",
+                "address": "0x2889302a794dA87fBF1D6Db415C1492194663D13",
+                "coinsAddresses": [
+                    "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                    "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+                    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1000607080471766209",
+                "amplificationCoefficient": "1707629",
+                "name": "TricryptoLLAMA",
+                "symbol": "crvCRVUSDTBTCWSTETH",
+                "totalSupply": "15319396237115588153556",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-2/swap",
+                        "https://classic.curve.fi/factory-tricrypto-2"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-2/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-2/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-2/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-2/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x2889302a794dA87fBF1D6Db415C1492194663D13",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                        "usdPrice": 0.999754901811434,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "crvUSD",
+                        "poolBalance": "5983850408044935966347113"
+                    },
+                    {
+                        "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+                        "usdPrice": 30770.773502469998,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "tBTC",
+                        "poolBalance": "194030925838644363898"
+                    },
+                    {
+                        "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "usdPrice": 1920.9134324002353,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "wstETH",
+                        "poolBalance": "3101795906240226209869",
+                        "ethLsdApy": 0.04252897211817779
+                    }
+                ],
+                "usdTotal": 17911146.869465664,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 17911146.869465664,
+                "gaugeAddress": "0x60d3d7ebbc44dc810a743703184f062d00e6db7e",
+                "gaugeRewards": [
+                    {
+                        "gaugeAddress": "0x60d3d7ebbc44dc810a743703184f062d00e6db7e",
+                        "tokenPrice": 1920.9134324002353,
+                        "name": "Wrapped liquid staked Ether 2.0",
+                        "symbol": "wstETH",
+                        "decimals": "18",
+                        "tokenAddress": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "apy": 7.468314889709493
+                    }
+                ],
+                "gaugeCrvApy": [
+                    2.218533964369192,
+                    5.54633491092298
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-3",
+                "address": "0x5426178799ee0a0181A89b4f57eFddfAb49941Ec",
+                "coinsAddresses": [
+                    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68"
+                ],
+                "decimals": [
+                    "6",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1007774292298606482",
+                "amplificationCoefficient": "2700000",
+                "name": "TricryptoINV",
+                "symbol": "crvUSDCWETHINV",
+                "totalSupply": "6864985129019072769832",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-3/swap",
+                        "https://classic.curve.fi/factory-tricrypto-3"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-3/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-3/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-3/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-3/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x5426178799ee0a0181A89b4f57eFddfAb49941Ec",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                        "usdPrice": 0.999299,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "USDC",
+                        "poolBalance": "258260968626"
+                    },
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "154221399893248543636"
+                    },
+                    {
+                        "address": "0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68",
+                        "usdPrice": 31.00509018516,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "INV",
+                        "poolBalance": "8313697837310014321726"
+                    }
+                ],
+                "usdTotal": 774210.9057181212,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 774210.9057181212,
+                "gaugeAddress": "0x4fc86cd0f9b650280fa783e3116258e0e0496a2c",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    25.973724636885688,
+                    64.93431159221421
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-4",
+                "address": "0x4eBdF703948ddCEA3B11f675B4D1Fba9d2414A14",
+                "coinsAddresses": [
+                    "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "0xD533a949740bb3306d119CC777fa900bA034cd52"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1028146718999254290",
+                "amplificationCoefficient": "2700000",
+                "name": "TriCRV",
+                "symbol": "crvUSDETHCRV",
+                "totalSupply": "689540298978803293404220",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-4/swap",
+                        "https://classic.curve.fi/factory-tricrypto-4"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-4/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-4/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-4/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-4/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x4eBdF703948ddCEA3B11f675B4D1Fba9d2414A14",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                        "usdPrice": 0.999754901811434,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "crvUSD",
+                        "poolBalance": "6479991572546064595127956"
+                    },
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "3844615029959636823094"
+                    },
+                    {
+                        "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+                        "usdPrice": 0.453118,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "CRV",
+                        "poolBalance": "14302565367968497076939284"
+                    }
+                ],
+                "usdTotal": 19399959.82014364,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 19399959.82014364,
+                "gaugeAddress": "0x8d867bef70c6733ff25cc0d1caa8aa6c38b24817",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    11.425540069470335,
+                    28.56385017367584
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-5",
+                "address": "0x9847a74fB7C3c4362220f616E15b83A58527F7E4",
+                "coinsAddresses": [
+                    "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                    "0xb2F30A7C980f052f02563fb518dcc39e6bf38175",
+                    "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1010099985144784812",
+                "amplificationCoefficient": "2700000",
+                "name": "sUSD/snxUSD/wUSDA",
+                "symbol": "3SPool",
+                "totalSupply": "44207583258517825077",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-5/swap",
+                        "https://classic.curve.fi/factory-tricrypto-5"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-5/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-5/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-5/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-5/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x9847a74fB7C3c4362220f616E15b83A58527F7E4",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                        "usdPrice": 0.779648658718296,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "wUSDA",
+                        "poolBalance": "56232503906786529849"
+                    },
+                    {
+                        "address": "0xb2F30A7C980f052f02563fb518dcc39e6bf38175",
+                        "usdPrice": 1.2375940750889842,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "snxUSD",
+                        "poolBalance": "35059280808531602448"
+                    },
+                    {
+                        "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+                        "usdPrice": 0.996646774004358,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "sUSD",
+                        "poolBalance": "45155983534882994609"
+                    }
+                ],
+                "usdTotal": 132.23531976985214,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 132.23531976985214,
+                "gaugeAddress": "0x5832c01c465e7c51b22ecb4f02d63081dbed2b28",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    null,
+                    null
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-6",
+                "address": "0xdcafD1914afDBC5788B701F47283CaeEAa5FBAed",
+                "coinsAddresses": [
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141",
+                    "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1037821649304975997",
+                "amplificationCoefficient": "2700000",
+                "name": "WETH/AMPH/wUSDA",
+                "symbol": "AMPHDUP",
+                "totalSupply": "25230223350136861145",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-6/swap",
+                        "https://classic.curve.fi/factory-tricrypto-6"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-6/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-6/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-6/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-6/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0xdcafD1914afDBC5788B701F47283CaeEAa5FBAed",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "35381081687776454"
+                    },
+                    {
+                        "address": "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141",
+                        "usdPrice": 0.005746546854310983,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "AMPH",
+                        "poolBalance": "10236202044120650531379"
+                    },
+                    {
+                        "address": "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                        "usdPrice": 1.1641976166361323,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "wUSDA",
+                        "poolBalance": "49506098685266202256"
+                    }
+                ],
+                "usdTotal": 175.73091528497136,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 175.73091528497136,
+                "gaugeAddress": "0xfb3fd2825fe128c3aa7576a2b87be19880015cae",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    null,
+                    null
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-7",
+                "address": "0x05CA1ff6fF45e55906c86Ad0d3FB2EbFaE9E0891",
+                "coinsAddresses": [
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141",
+                    "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": 0,
+                "amplificationCoefficient": "2700000",
+                "name": "AMPH/WETH/wUSDA",
+                "symbol": "AMPHDUP",
+                "totalSupply": "0",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-7/swap",
+                        "https://classic.curve.fi/factory-tricrypto-7"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-7/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-7/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-7/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-7/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x05CA1ff6fF45e55906c86Ad0d3FB2EbFaE9E0891",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "AMPH",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "wUSDA",
+                        "poolBalance": "0"
+                    }
+                ],
+                "usdTotal": 0,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 0,
+                "gaugeAddress": "0xfbb82a8df175ab3ee94eae2fec1c43467d6cf222",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    null,
+                    null
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-8",
+                "address": "0x037164C912f9733A0973B18EE339FBeF66cfd2C2",
+                "coinsAddresses": [
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                    "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": 0,
+                "amplificationCoefficient": "2700000",
+                "name": "AMPH/wUSDA/WETH",
+                "symbol": "AMPHDUP",
+                "totalSupply": "0",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-8/swap",
+                        "https://classic.curve.fi/factory-tricrypto-8"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-8/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-8/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-8/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-8/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x037164C912f9733A0973B18EE339FBeF66cfd2C2",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "wUSDA",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "AMPH",
+                        "poolBalance": "0"
+                    }
+                ],
+                "usdTotal": 0,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 0,
+                "gaugeAddress": "0x23376482abc1403e24306d6d09da10df7f9c570f",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    null,
+                    null
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-9",
+                "address": "0x3921e2cb3Ac3bC009Fa4ec5Ea1ee0bc7FA4Be4C1",
+                "coinsAddresses": [
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                    "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": 0,
+                "amplificationCoefficient": "2700000",
+                "name": "AMPH/wUSDA/WETH",
+                "symbol": "AMPHDUP",
+                "totalSupply": "0",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-9/swap",
+                        "https://classic.curve.fi/factory-tricrypto-9"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-9/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-9/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-9/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-9/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x3921e2cb3Ac3bC009Fa4ec5Ea1ee0bc7FA4Be4C1",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "wUSDA",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "AMPH",
+                        "poolBalance": "0"
+                    }
+                ],
+                "usdTotal": 0,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 0,
+                "gaugeAddress": "0xa6aae326b8901a610db0d25e863b2a1b2f10cd4e",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    null,
+                    null
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-10",
+                "address": "0x38AB39c82BE45f660AFa4A74E85dAd4b4aDd0492",
+                "coinsAddresses": [
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                    "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": 0,
+                "amplificationCoefficient": "1707629",
+                "name": "AMPH/wUSDA/WETH",
+                "symbol": "AMPHDUP",
+                "totalSupply": "0",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-10/swap",
+                        "https://classic.curve.fi/factory-tricrypto-10"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-10/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-10/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-10/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-10/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x38AB39c82BE45f660AFa4A74E85dAd4b4aDd0492",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "wUSDA",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "AMPH",
+                        "poolBalance": "0"
+                    }
+                ],
+                "usdTotal": 0,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 0,
+                "gaugeAddress": "0xbb091d9a2ea48f35360420e5bee935663042bbc3",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    null,
+                    null
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-11",
+                "address": "0x86bF09aCB47AB31686bE413d614E9ded3666a1d3",
+                "coinsAddresses": [
+                    "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                    "0x5E8422345238F34275888049021821E8E08CAa1f",
+                    "0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1002454673767941397",
+                "amplificationCoefficient": "2700000",
+                "name": "TriSILO",
+                "symbol": "crvUSDETHSILO",
+                "totalSupply": "13113500162577464864580",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-11/swap",
+                        "https://classic.curve.fi/factory-tricrypto-11"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-11/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-11/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-11/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-11/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x86bF09aCB47AB31686bE413d614E9ded3666a1d3",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                        "usdPrice": 0.999754901811434,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "crvUSD",
+                        "poolBalance": "58031601218187932454067"
+                    },
+                    {
+                        "address": "0x5E8422345238F34275888049021821E8E08CAa1f",
+                        "usdPrice": 1671.9893896045617,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "frxETH",
+                        "poolBalance": "34465761042216262823"
+                    },
+                    {
+                        "address": "0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8",
+                        "usdPrice": 0.05079764851786558,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "Silo",
+                        "poolBalance": "1135743734273051780903019"
+                    }
+                ],
+                "usdTotal": 173336.87556505224,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 173336.87556505224,
+                "gaugeAddress": "0xb901a92f2c385afa0a019e8a307a59a570239ca4",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    12.349855166294727,
+                    30.87463791573682
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-12",
+                "address": "0x50120e3348287C6d001E455f5b00FeA07A875541",
+                "coinsAddresses": [
+                    "0xFE77ff4Cff74DCb6Aa570869F4f075c727054575",
+                    "0x5Ac4a1E420f0F510ef94DB86CDbaB59d5C0F2c83",
+                    "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1000014578381757544",
+                "amplificationCoefficient": "2700000",
+                "name": "3AMPH",
+                "symbol": "3AMPH",
+                "totalSupply": "1711024552639623471981",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-12/swap",
+                        "https://classic.curve.fi/factory-tricrypto-12"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-12/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-12/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-12/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-12/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x50120e3348287C6d001E455f5b00FeA07A875541",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xFE77ff4Cff74DCb6Aa570869F4f075c727054575",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "oAMPH",
+                        "poolBalance": "11005336666666000000"
+                    },
+                    {
+                        "address": "0x5Ac4a1E420f0F510ef94DB86CDbaB59d5C0F2c83",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "vAMPH",
+                        "poolBalance": "1100533336666600000000"
+                    },
+                    {
+                        "address": "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "AMPH",
+                        "poolBalance": "413599999999975010000000"
+                    }
+                ],
+                "usdTotal": 0,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 0,
+                "gaugeAddress": "0x2b7822e663c856153ea1a36acead03dd3b7c6561",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    null,
+                    null
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-13",
+                "address": "0x6A62EE3e5c4b412Cd9167D3aFd5E481e1E30715a",
+                "coinsAddresses": [
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                    "0xa21Af1050F7B26e0cfF45ee51548254C41ED6b5c"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1003865769254103882",
+                "amplificationCoefficient": "2700000",
+                "name": "TriOSAK",
+                "symbol": "OSAKETHcrvUSD",
+                "totalSupply": "227982739427157583984155",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-13/swap",
+                        "https://classic.curve.fi/factory-tricrypto-13"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-13/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-13/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-13/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-13/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x6A62EE3e5c4b412Cd9167D3aFd5E481e1E30715a",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "5274839355612749771"
+                    },
+                    {
+                        "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                        "usdPrice": 0.999754901811434,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "crvUSD",
+                        "poolBalance": "8845554579749989175505"
+                    },
+                    {
+                        "address": "0xa21Af1050F7B26e0cfF45ee51548254C41ED6b5c",
+                        "usdPrice": 3.412780904368e-8,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "OSAK",
+                        "poolBalance": "256899599014336564644883174568"
+                    }
+                ],
+                "usdTotal": 26447.639884575798,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 26447.639884575798,
+                "gaugeAddress": "0x8c94e9a3b68316fba06ba6666acdfc2dc7b7f623",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    0,
+                    0
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-14",
+                "address": "0x2570f1bD5D2735314FC102eb12Fc1aFe9e6E7193",
+                "coinsAddresses": [
+                    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                    "0xae78736Cd615f374D3085123A210448E74Fc6393",
+                    "0xac3E018457B222d93114458476f3E3416Abbe38F"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1000561114539256981",
+                "amplificationCoefficient": "269799271",
+                "name": "TryLSD",
+                "symbol": "TryLSD",
+                "totalSupply": "39069725326592193426",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-14/swap",
+                        "https://classic.curve.fi/factory-tricrypto-14"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-14/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-14/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-14/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-14/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x2570f1bD5D2735314FC102eb12Fc1aFe9e6E7193",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "usdPrice": 1920.9134324002353,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "wstETH",
+                        "poolBalance": "31949585419162500456",
+                        "ethLsdApy": 0.04252897211817779
+                    },
+                    {
+                        "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+                        "usdPrice": 1820.87,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "rETH",
+                        "poolBalance": "52730455014419381252",
+                        "ethLsdApy": 0.03233071907936951
+                    },
+                    {
+                        "address": "0xac3E018457B222d93114458476f3E3416Abbe38F",
+                        "usdPrice": 1780.5827785618674,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "sfrxETH",
+                        "poolBalance": "32686533824509648022",
+                        "ethLsdApy": 0.039216171297171885
+                    }
+                ],
+                "usdTotal": 215588.77063219564,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 215588.77063219564,
+                "gaugeAddress": "0xea012f5b25fa0d8e46123b85f585d0a5075e96b5",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    0,
+                    0
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-15",
+                "address": "0x56aEFfd9935ACabF21543701212d67aD529F7f2e",
+                "coinsAddresses": [
+                    "0x5E8422345238F34275888049021821E8E08CAa1f",
+                    "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                    "0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": 0,
+                "amplificationCoefficient": "2700000",
+                "name": "triSDT",
+                "symbol": "triSDT",
+                "totalSupply": "0",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-15/swap",
+                        "https://classic.curve.fi/factory-tricrypto-15"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-15/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-15/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-15/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-15/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x56aEFfd9935ACabF21543701212d67aD529F7f2e",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0x5E8422345238F34275888049021821E8E08CAa1f",
+                        "usdPrice": 1671.9893896045617,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "frxETH",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                        "usdPrice": 0.999754901811434,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "crvUSD",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "SDT",
+                        "poolBalance": "0"
+                    }
+                ],
+                "usdTotal": 0,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 0,
+                "gaugeAddress": "0x33dc66f2808d8df2798e9e02ce15f8658ac6d0f8",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    null,
+                    null
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-16",
+                "address": "0x954313005C56b555bdC41B84D6c63B69049d7847",
+                "coinsAddresses": [
+                    "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                    "0x5E8422345238F34275888049021821E8E08CAa1f",
+                    "0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1000982943056207989",
+                "amplificationCoefficient": "2700000",
+                "name": "triSDT",
+                "symbol": "triSDT",
+                "totalSupply": "43660273855355507673609",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-16/swap",
+                        "https://classic.curve.fi/factory-tricrypto-16"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-16/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-16/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-16/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-16/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x954313005C56b555bdC41B84D6c63B69049d7847",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                        "usdPrice": 0.999754901811434,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "crvUSD",
+                        "poolBalance": "341707389085779521307728"
+                    },
+                    {
+                        "address": "0x5E8422345238F34275888049021821E8E08CAa1f",
+                        "usdPrice": 1671.9893896045617,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "frxETH",
+                        "poolBalance": "204803797544774323225"
+                    },
+                    {
+                        "address": "0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F",
+                        "usdPrice": 0.28564491064728886,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "SDT",
+                        "poolBalance": "1192727707327546308375305"
+                    }
+                ],
+                "usdTotal": 1024750.0130554012,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 1024750.0130554012,
+                "gaugeAddress": "0x2dd2b7e07dd433b758b98a3889a63cbf48ef0d99",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    3.4392832078730393,
+                    8.598208019682598
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-17",
+                "address": "0x1Ac76b6e2926ff475969d22a2258449a4600E006",
+                "coinsAddresses": [
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                    "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": 0,
+                "amplificationCoefficient": "2700000",
+                "name": "AMPH/WETH/wUSDA",
+                "symbol": "AMPHDUP",
+                "totalSupply": "0",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-17/swap",
+                        "https://classic.curve.fi/factory-tricrypto-17"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-17/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-17/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-17/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-17/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x1Ac76b6e2926ff475969d22a2258449a4600E006",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x43833f0C2025dFA80b5556574FAA11CBf7F3f4eB",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "wUSDA",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x943c5F4F54509d1e78B1fCD93B92c43ce83d3141",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "AMPH",
+                        "poolBalance": "0"
+                    }
+                ],
+                "usdTotal": 0,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 0,
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-18",
+                "address": "0xC7DE47b9Ca2Fc753D6a2F167D8b3e19c6D18b19a",
+                "coinsAddresses": [
+                    "0x865377367054516e17014CcdED1e7d814EDC9ce4",
+                    "0xAD038Eb671c44b853887A7E32528FaB35dC5D710",
+                    "0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1006288840756223792",
+                "amplificationCoefficient": "2700000",
+                "name": "TriDBR",
+                "symbol": "crvDBRINV",
+                "totalSupply": "133887161025198258666030",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-18/swap",
+                        "https://classic.curve.fi/factory-tricrypto-18"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-18/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-18/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-18/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-18/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0xC7DE47b9Ca2Fc753D6a2F167D8b3e19c6D18b19a",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0x865377367054516e17014CcdED1e7d814EDC9ce4",
+                        "usdPrice": 0.997521,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "DOLA",
+                        "poolBalance": "197510554228636697243213"
+                    },
+                    {
+                        "address": "0xAD038Eb671c44b853887A7E32528FaB35dC5D710",
+                        "usdPrice": 0.100543005243364,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "DBR",
+                        "poolBalance": "1955942440278183039500966"
+                    },
+                    {
+                        "address": "0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68",
+                        "usdPrice": 31.00509018516,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "INV",
+                        "poolBalance": "6330360647814569162271"
+                    }
+                ],
+                "usdTotal": 589950.6593833901,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 589950.6593833901,
+                "gaugeAddress": "0x5ccde4bec0f4006c3826b51edf0d227d12ea33fa",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    null,
+                    null
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-19",
+                "address": "0x5b3BA844b3859f56524e99Ae54857b36c8Ae3eFE",
+                "coinsAddresses": [
+                    "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1000567506578993212",
+                "amplificationCoefficient": "2700000",
+                "name": "TriLDO",
+                "symbol": "crvUSDETHLDO",
+                "totalSupply": "2350932279362046274462",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-19/swap",
+                        "https://classic.curve.fi/factory-tricrypto-19"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-19/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-19/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-19/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-19/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x5b3BA844b3859f56524e99Ae54857b36c8Ae3eFE",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                        "usdPrice": 0.999754901811434,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "crvUSD",
+                        "poolBalance": "33476132776244442641761"
+                    },
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "usdPrice": 1675.28,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "WETH",
+                        "poolBalance": "20283544841364248833"
+                    },
+                    {
+                        "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+                        "usdPrice": 1.7335182807398093,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "LDO",
+                        "poolBalance": "19167142383476511827351"
+                    }
+                ],
+                "usdTotal": 100675.13654988083,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 100675.13654988083,
+                "gaugeAddress": "0xab79226e4fbd6d299316c0964be9f417c8f920c9",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    0,
+                    0
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-20",
+                "address": "0x8e2b641271544300e59d14E27520DEA204056D66",
+                "coinsAddresses": [
+                    "0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8",
+                    "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+                    "0x320623b8E4fF03373931769A31Fc52A4E78B5d70"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": 0,
+                "amplificationCoefficient": "2700000",
+                "name": "TriRSR",
+                "symbol": "crvRSReUSD",
+                "totalSupply": "0",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-20/swap",
+                        "https://classic.curve.fi/factory-tricrypto-20"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-20/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-20/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-20/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-20/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x8e2b641271544300e59d14E27520DEA204056D66",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "ETH+",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+                        "usdPrice": 1.002,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "eUSD",
+                        "poolBalance": "0"
+                    },
+                    {
+                        "address": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+                        "usdPrice": null,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "RSR",
+                        "poolBalance": "0"
+                    }
+                ],
+                "usdTotal": 0,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 0,
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-21",
+                "address": "0xDB6925eA42897ca786a045B252D95aA7370f44b4",
+                "coinsAddresses": [
+                    "0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8",
+                    "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+                    "0x320623b8E4fF03373931769A31Fc52A4E78B5d70"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1000243626569464284",
+                "amplificationCoefficient": "2700000",
+                "name": "TriRSR",
+                "symbol": "crvRSReUSDETH+",
+                "totalSupply": "597275781553341879337764",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-21/swap",
+                        "https://classic.curve.fi/factory-tricrypto-21"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-21/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-21/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-21/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-21/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0xDB6925eA42897ca786a045B252D95aA7370f44b4",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8",
+                        "usdPrice": 1665.1605661156718,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "ETH+",
+                        "poolBalance": "519268788194537644673"
+                    },
+                    {
+                        "address": "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+                        "usdPrice": 1.002,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "eUSD",
+                        "poolBalance": "865841419584398717335301"
+                    },
+                    {
+                        "address": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+                        "usdPrice": 0.0018295774741302348,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "RSR",
+                        "poolBalance": "474245856802772082021550102"
+                    }
+                ],
+                "usdTotal": 2599908.5485457275,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 2599908.5485457275,
+                "gaugeAddress": "0x331d6f25a382b4961a983d6ddc6974a48e51462c",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    null,
+                    null
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "factory-tricrypto-22",
+                "address": "0x4D1941a887eC788F059b3bfcC8eE1E97b968825B",
+                "coinsAddresses": [
+                    "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+                    "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+                    "0x5E8422345238F34275888049021821E8E08CAa1f"
+                ],
+                "decimals": [
+                    "18",
+                    "18",
+                    "18"
+                ],
+                "virtualPrice": "1000000000000000000",
+                "amplificationCoefficient": "1707629",
+                "name": "TricryptoFRAX",
+                "symbol": "crvFRAXTBTCFRXETH",
+                "totalSupply": "28905239020267717",
+                "implementationAddress": "0x66442B0C5260B92cAa9c234ECf2408CBf6b19a6f",
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-22/swap",
+                        "https://classic.curve.fi/factory-tricrypto-22"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-22/deposit",
+                        "https://classic.curve.fi/factory-tricrypto-22/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/ethereum/pools/factory-tricrypto-22/withdraw",
+                        "https://classic.curve.fi/factory-tricrypto-22/withdraw"
+                    ]
+                },
+                "implementation": "tricrypto-1",
+                "lpTokenAddress": "0x4D1941a887eC788F059b3bfcC8eE1E97b968825B",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+                        "usdPrice": 0.9986048603067829,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "FRAX",
+                        "poolBalance": "10000000000008056929"
+                    },
+                    {
+                        "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+                        "usdPrice": 30770.773502469998,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "tBTC",
+                        "poolBalance": "372162262746857"
+                    },
+                    {
+                        "address": "0x5E8422345238F34275888049021821E8E08CAa1f",
+                        "usdPrice": 1671.9893896045617,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "frxETH",
+                        "poolBalance": "6489292667104515"
+                    }
+                ],
+                "usdTotal": 32.28779778166358,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 32.28779778166358,
+                "gaugeAddress": "0x4b43feab8f5ccd38ac0831dd7ec797330114f058",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    0,
+                    0
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            }
+        ],
+        "tvlAll": 142236617.18774748,
+        "tvl": 142236617.18774748
+    },
+    "generatedTimeMs": 1698072762572
+}

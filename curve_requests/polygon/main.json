@@ -1,0 +1,151 @@
+{
+    "success": true,
+    "data": {
+        "poolData": [
+            {
+                "id": "0",
+                "address": "0xC2d95EEF97Ec6C17551d45e77B590dc1F9117C67",
+                "coinsAddresses": [
+                    "0x5c2ed810328349100A66B82b78a1791B101C9D61",
+                    "0xDBf31dF14B66535aF65AaC99C32e9eA844e14501",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000"
+                ],
+                "decimals": [
+                    "8",
+                    "8",
+                    "0",
+                    "0"
+                ],
+                "virtualPrice": "1011067900349876470",
+                "amplificationCoefficient": "200",
+                "assetType": "0",
+                "totalSupply": "10601263042976259675",
+                "name": "Curve.fi amWBTC/renBTC",
+                "lpTokenAddress": "0xf8a57c1d3b9629b77b6726a042ca48990A84Fb49",
+                "symbol": "btcCRV",
+                "priceOracle": 0,
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/polygon/pools/ren/swap",
+                        "https://polygon.curve.fi/ren"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/polygon/pools/ren/deposit",
+                        "https://polygon.curve.fi/ren/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/polygon/pools/ren/withdraw",
+                        "https://polygon.curve.fi/ren/withdraw"
+                    ]
+                },
+                "implementation": "",
+                "assetTypeName": "usd",
+                "coins": [
+                    {
+                        "address": "0x5c2ed810328349100A66B82b78a1791B101C9D61",
+                        "usdPrice": 31251,
+                        "decimals": "8",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amWBTC",
+                        "poolBalance": "707248734"
+                    },
+                    {
+                        "address": "0xDBf31dF14B66535aF65AaC99C32e9eA844e14501",
+                        "usdPrice": 31317.77869935,
+                        "decimals": "8",
+                        "isBasePoolLpToken": false,
+                        "symbol": "renBTC",
+                        "poolBalance": "364913459"
+                    }
+                ],
+                "usdTotal": 335305.0913961033,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 335305.0913961033,
+                "gaugeAddress": "0x8d9649e50a0d1da8e939f800fb926cde8f18b47d",
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "1",
+                "address": "0x445FE580eF8d70FF569aB36e80c647af338db351",
+                "coinsAddresses": [
+                    "0x27F8D03b3a2196956ED754baDc28D73be8830A6e",
+                    "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F",
+                    "0x60D55F02A771d515e077c9C2403a1ef324885CeC",
+                    "0x0000000000000000000000000000000000000000"
+                ],
+                "decimals": [
+                    "18",
+                    "6",
+                    "6",
+                    "0"
+                ],
+                "virtualPrice": "1086778111533811472",
+                "amplificationCoefficient": "2000",
+                "assetType": "0",
+                "totalSupply": "9537820836048242913697025",
+                "name": "Curve.fi amDAI/amUSDC/amUSDT",
+                "lpTokenAddress": "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+                "symbol": "am3CRV",
+                "priceOracle": 0,
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/polygon/pools/aave/swap",
+                        "https://polygon.curve.fi/aave"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/polygon/pools/aave/deposit",
+                        "https://polygon.curve.fi/aave/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/polygon/pools/aave/withdraw",
+                        "https://polygon.curve.fi/aave/withdraw"
+                    ]
+                },
+                "implementation": "",
+                "assetTypeName": "usd",
+                "coins": [
+                    {
+                        "address": "0x27F8D03b3a2196956ED754baDc28D73be8830A6e",
+                        "usdPrice": 0.9983584900000001,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amDAI",
+                        "poolBalance": "4438293494425089004572813"
+                    },
+                    {
+                        "address": "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F",
+                        "usdPrice": 0.99875,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amUSDC",
+                        "poolBalance": "3678265121178"
+                    },
+                    {
+                        "address": "0x60D55F02A771d515e077c9C2403a1ef324885CeC",
+                        "usdPrice": 0.9987759675000001,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amUSDT",
+                        "poolBalance": "2249149460214"
+                    }
+                ],
+                "usdTotal": 10351071.709224924,
+                "isMetaPool": false,
+                "usdTotalExcludingBasePool": 10351071.709224924,
+                "gaugeAddress": "0x20759f567bb3ecdb55c817c9a1d13076ab215edc",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    0,
+                    0
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            }
+        ],
+        "tvlAll": 10686376.800621027,
+        "tvl": 10686376.800621027
+    },
+    "generatedTimeMs": 1698081818269
+}

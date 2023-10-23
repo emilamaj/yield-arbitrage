@@ -1,0 +1,480 @@
+{
+    "success": true,
+    "data": {
+        "poolData": [
+            {
+                "id": "crypto-0",
+                "address": "0x92215849c439E1f8612b6646060B4E3E5ef822cC",
+                "coinsAddresses": [
+                    "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+                    "0x5c2ed810328349100A66B82b78a1791B101C9D61",
+                    "0x28424507fefb6f7f8E9D3860F56504E4e5f5f390",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000"
+                ],
+                "decimals": [
+                    "18",
+                    "8",
+                    "18",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "virtualPrice": "1028614240891842080",
+                "amplificationCoefficient": "1700000",
+                "lpTokenAddress": "0xdAD97F7713Ae9437fa9249920eC8507e5FbB23d3",
+                "name": "Curve USD-BTC-ETH",
+                "symbol": "crvUSDBTCETH",
+                "totalSupply": "8882158326094537962770",
+                "priceOracle": 28689.553466623245,
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/polygon/pools/atricrypto3/swap",
+                        "https://polygon.curve.fi/atricrypto3"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/polygon/pools/atricrypto3/deposit",
+                        "https://polygon.curve.fi/atricrypto3/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/polygon/pools/atricrypto3/withdraw",
+                        "https://polygon.curve.fi/atricrypto3/withdraw"
+                    ]
+                },
+                "implementation": "",
+                "zapAddress": "0x1d8b86e3d88cdb2d34688e87e72f388cb541b7c8",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+                        "usdPrice": 1.0866239264171678,
+                        "decimals": "18",
+                        "isBasePoolLpToken": true,
+                        "symbol": "am3CRV",
+                        "poolBalance": "3248819167513139586463681"
+                    },
+                    {
+                        "address": "0x5c2ed810328349100A66B82b78a1791B101C9D61",
+                        "usdPrice": 31251,
+                        "decimals": "8",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amWBTC",
+                        "poolBalance": "11263957437"
+                    },
+                    {
+                        "address": "0x28424507fefb6f7f8E9D3860F56504E4e5f5f390",
+                        "usdPrice": 1692.99,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amWETH",
+                        "poolBalance": "2083727399876839571013"
+                    }
+                ],
+                "usdTotal": 10578073.629376844,
+                "isMetaPool": true,
+                "underlyingCoins": [
+                    {
+                        "address": "0x27F8D03b3a2196956ED754baDc28D73be8830A6e",
+                        "usdPrice": 0.999608,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amDAI",
+                        "poolBalance": "1511793045066701472758082"
+                    },
+                    {
+                        "address": "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F",
+                        "usdPrice": 1,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amUSDC",
+                        "poolBalance": "1252908441028"
+                    },
+                    {
+                        "address": "0x60D55F02A771d515e077c9C2403a1ef324885CeC",
+                        "usdPrice": 1.000026,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amUSDT",
+                        "poolBalance": "766115857789"
+                    },
+                    {
+                        "address": "0x5c2ed810328349100A66B82b78a1791B101C9D61",
+                        "usdPrice": 31251,
+                        "decimals": "8",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amWBTC",
+                        "poolBalance": "11263957437"
+                    },
+                    {
+                        "address": "0x28424507fefb6f7f8E9D3860F56504E4e5f5f390",
+                        "usdPrice": 1692.99,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amWETH",
+                        "poolBalance": "2083727399876839571013"
+                    }
+                ],
+                "usdTotalExcludingBasePool": 7047828.989354361,
+                "gaugeAddress": "0xbb1b19495b8fe7c402427479b9ac14886cbbaaee",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    1.1570407903324949,
+                    2.892601975831237
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "crypto-1",
+                "address": "0xB446BF7b8D6D4276d0c75eC0e3ee8dD7Fe15783A",
+                "coinsAddresses": [
+                    "0x7BDF330f423Ea880FF95fC41A280fD5eCFD3D09f",
+                    "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000"
+                ],
+                "decimals": [
+                    "6",
+                    "18",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "virtualPrice": "1005192943976267165",
+                "amplificationCoefficient": "200000000",
+                "lpTokenAddress": "0x600743B1d8A96438bD46836fD34977a00293f6Aa",
+                "name": "Curve EURT-3Crv",
+                "symbol": "crvEURTUSD",
+                "totalSupply": "1528729321954413200857731",
+                "priceOracle": 1.0295382452847062,
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/polygon/pools/eurtusd/swap",
+                        "https://polygon.curve.fi/eurtusd"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/polygon/pools/eurtusd/deposit",
+                        "https://polygon.curve.fi/eurtusd/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/polygon/pools/eurtusd/withdraw",
+                        "https://polygon.curve.fi/eurtusd/withdraw"
+                    ]
+                },
+                "implementation": "",
+                "zapAddress": "0x225fb4176f0e20cdb66b4a3df70ca3063281e855",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0x7BDF330f423Ea880FF95fC41A280fD5eCFD3D09f",
+                        "usdPrice": 1.068,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "EURT",
+                        "poolBalance": "1627007250801"
+                    },
+                    {
+                        "address": "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+                        "usdPrice": 1.0866239264171678,
+                        "decimals": "18",
+                        "isBasePoolLpToken": true,
+                        "symbol": "am3CRV",
+                        "poolBalance": "1446677634894341575874378"
+                    }
+                ],
+                "usdTotal": 3309638.2757442594,
+                "isMetaPool": true,
+                "underlyingCoins": [
+                    {
+                        "address": "0x7BDF330f423Ea880FF95fC41A280fD5eCFD3D09f",
+                        "usdPrice": 1.068,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "EURT",
+                        "poolBalance": "1627007250801"
+                    },
+                    {
+                        "address": "0x27F8D03b3a2196956ED754baDc28D73be8830A6e",
+                        "usdPrice": 0.999608,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amDAI",
+                        "poolBalance": "673191419441465562094841"
+                    },
+                    {
+                        "address": "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F",
+                        "usdPrice": 1,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amUSDC",
+                        "poolBalance": "557911821726"
+                    },
+                    {
+                        "address": "0x60D55F02A771d515e077c9C2403a1ef324885CeC",
+                        "usdPrice": 1.000026,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amUSDT",
+                        "poolBalance": "341146311954"
+                    }
+                ],
+                "usdTotalExcludingBasePool": 1737643.7438554682,
+                "gaugeAddress": "0x8b397084699cc64e429f610f81fac13bf061ef55",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    0.12845135757693502,
+                    0.32112839394233755
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "crypto-2",
+                "address": "0x751B1e21756bDbc307CBcC5085c042a0e9AaEf36",
+                "coinsAddresses": [
+                    "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+                    "0x5c2ed810328349100A66B82b78a1791B101C9D61",
+                    "0x28424507fefb6f7f8E9D3860F56504E4e5f5f390",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000"
+                ],
+                "decimals": [
+                    "18",
+                    "8",
+                    "18",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "virtualPrice": "1066351045818376242",
+                "amplificationCoefficient": "3645",
+                "lpTokenAddress": "0x8096ac61db23291252574D49f036f0f9ed8ab390",
+                "name": "Curve USD-BTC-ETH",
+                "symbol": "crvUSDBTCETH",
+                "totalSupply": "61560621332483582285",
+                "priceOracle": 28516.55307097116,
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/polygon/pools/atricrypto/swap",
+                        "https://polygon.curve.fi/atricrypto"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/polygon/pools/atricrypto/deposit",
+                        "https://polygon.curve.fi/atricrypto/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/polygon/pools/atricrypto/withdraw",
+                        "https://polygon.curve.fi/atricrypto/withdraw"
+                    ]
+                },
+                "implementation": "",
+                "zapAddress": "0x3fcd5de6a9fc8a99995c406c77dda3ed7e406f81",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+                        "usdPrice": 1.0866239264171678,
+                        "decimals": "18",
+                        "isBasePoolLpToken": true,
+                        "symbol": "am3CRV",
+                        "poolBalance": "23428802218000038773482"
+                    },
+                    {
+                        "address": "0x5c2ed810328349100A66B82b78a1791B101C9D61",
+                        "usdPrice": 31251,
+                        "decimals": "8",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amWBTC",
+                        "poolBalance": "79554271"
+                    },
+                    {
+                        "address": "0x28424507fefb6f7f8E9D3860F56504E4e5f5f390",
+                        "usdPrice": 1692.99,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amWETH",
+                        "poolBalance": "15132800483219862141"
+                    }
+                ],
+                "usdTotal": 75939.48217767084,
+                "isMetaPool": true,
+                "underlyingCoins": [
+                    {
+                        "address": "0x27F8D03b3a2196956ED754baDc28D73be8830A6e",
+                        "usdPrice": 0.999608,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amDAI",
+                        "poolBalance": "10902268923304892349777"
+                    },
+                    {
+                        "address": "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F",
+                        "usdPrice": 1,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amUSDC",
+                        "poolBalance": "9035327160"
+                    },
+                    {
+                        "address": "0x60D55F02A771d515e077c9C2403a1ef324885CeC",
+                        "usdPrice": 1.000026,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amUSDT",
+                        "poolBalance": "5524831018"
+                    },
+                    {
+                        "address": "0x5c2ed810328349100A66B82b78a1791B101C9D61",
+                        "usdPrice": 31251,
+                        "decimals": "8",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amWBTC",
+                        "poolBalance": "79554271"
+                    },
+                    {
+                        "address": "0x28424507fefb6f7f8E9D3860F56504E4e5f5f390",
+                        "usdPrice": 1692.99,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amWETH",
+                        "poolBalance": "15132800483219862141"
+                    }
+                ],
+                "usdTotalExcludingBasePool": 50481.185120296395,
+                "usesRateOracle": false,
+                "isBroken": false
+            },
+            {
+                "id": "crypto-3",
+                "address": "0x9b3d675FDbe6a0935E8B7d1941bc6f78253549B7",
+                "coinsAddresses": [
+                    "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
+                    "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x0000000000000000000000000000000000000000"
+                ],
+                "decimals": [
+                    "2",
+                    "18",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "virtualPrice": "1002965479373961438",
+                "amplificationCoefficient": "200000000",
+                "lpTokenAddress": "0x7BD9757FbAc089d60DaFF1Fa6bfE3BC99b0F5735",
+                "name": "Curve EURS-3Crv",
+                "symbol": "crvEURSUSD",
+                "totalSupply": "504946877458410163749",
+                "priceOracle": 1.0290391180020173,
+                "poolUrls": {
+                    "swap": [
+                        "https://curve.fi/#/polygon/pools/eursusd/swap",
+                        "https://polygon.curve.fi/eursusd"
+                    ],
+                    "deposit": [
+                        "https://curve.fi/#/polygon/pools/eursusd/deposit",
+                        "https://polygon.curve.fi/eursusd/deposit"
+                    ],
+                    "withdraw": [
+                        "https://curve.fi/#/polygon/pools/eursusd/withdraw",
+                        "https://polygon.curve.fi/eursusd/withdraw"
+                    ]
+                },
+                "implementation": "",
+                "zapAddress": "0x4df7ef55e99a56851187822d96b4e17d98a47ded",
+                "assetTypeName": "unknown",
+                "coins": [
+                    {
+                        "address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
+                        "usdPrice": 1.055959785597808,
+                        "decimals": "2",
+                        "isBasePoolLpToken": false,
+                        "symbol": "EURS",
+                        "poolBalance": "53675"
+                    },
+                    {
+                        "address": "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+                        "usdPrice": 1.0866239264171678,
+                        "decimals": "18",
+                        "isBasePoolLpToken": true,
+                        "symbol": "am3CRV",
+                        "poolBalance": "476068042930868559146"
+                    }
+                ],
+                "usdTotal": 1084.0933409709005,
+                "isMetaPool": true,
+                "underlyingCoins": [
+                    {
+                        "address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
+                        "usdPrice": 1.055959785597808,
+                        "decimals": "2",
+                        "isBasePoolLpToken": false,
+                        "symbol": "EURS",
+                        "poolBalance": "53675"
+                    },
+                    {
+                        "address": "0x27F8D03b3a2196956ED754baDc28D73be8830A6e",
+                        "usdPrice": 0.999608,
+                        "decimals": "18",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amDAI",
+                        "poolBalance": "221531676332826304889"
+                    },
+                    {
+                        "address": "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F",
+                        "usdPrice": 1,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amUSDC",
+                        "poolBalance": "183595836"
+                    },
+                    {
+                        "address": "0x60D55F02A771d515e077c9C2403a1ef324885CeC",
+                        "usdPrice": 1.000026,
+                        "decimals": "6",
+                        "isBasePoolLpToken": false,
+                        "symbol": "amUSDT",
+                        "poolBalance": "112263336"
+                    }
+                ],
+                "usdTotalExcludingBasePool": 566.7864149196234,
+                "gaugeAddress": "0x18006c6a7955bf6db72de34089b975f733601660",
+                "gaugeRewards": [],
+                "gaugeCrvApy": [
+                    0,
+                    0
+                ],
+                "usesRateOracle": false,
+                "isBroken": false
+            }
+        ],
+        "tvlAll": 8836520.704745045,
+        "tvl": 8836520.704745045
+    },
+    "generatedTimeMs": 1698081599139
+}
