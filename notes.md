@@ -81,7 +81,7 @@ Tokens that are currently traded on most of these chains:
 ### Reproducing findings from medium article
 - [x] Script to display past APY data for a specific Curve pool
 - [x] Script to display past APY data for multiple Curve pools, on the same chain
-- [x] APY data for Curve pools on multiple chains
+- [x] Script to display past APY data for multiple Curve pools on multiple chains
 - [ ] Compute theoretical max strategy APY under various assumptions
     - [ ] No rebalancing fees, ignore impermanent loss, choose best-of-n APY, fixed rebalancing period
 
