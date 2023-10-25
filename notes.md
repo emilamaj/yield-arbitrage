@@ -3,6 +3,8 @@
 - Initial scope: Research "yield arbitrage" strategies for crypto assets. Exploit data from Syntropy.
 
 - Strategy reference article: https://0xbrainjar.medium.com/pool-pool-yield-arbitrage-powered-by-cross-layer-tricrypto-lp-token-swaps-8d2afeff3e15 Key takeaway is: Optimizing LPing by moving liquidity frequently between exchanges/chains, depending on latest APYs.
+Links to help reproduction of the strategy:
+    - Formula for calculating vAPY of any curve pool: https://resources.curve.fi/lp/calculating-yield/#base-vapy
 
 - Useful link to check yields on various protocols https://defillama.com/yields
 
@@ -23,7 +25,7 @@ That is to say, if we start with $10k in USDC@10% and $10k in ETH@15%, we should
 
 - Strategy downside: doesn't use Syntropy data to its full potential. Could be done without Syntropy data, by just checking yields on various protocols, time frames are much larger than block periods.
 
-- Strategy's next frontier: use live mempool defi transaction data to perform JIT liquidity sandwiching. When a large DeFi transaction is detected, send a private transaction bundle that frontruns the target tx by providing large amounts of liquidity. The target tx is then followed in the bundle, and finally the second 'leg' of the sandwich is the liquidity pulling transaction. The JIT bot will have gathered the trading fees + the MEV from the manipulated slippage. This demands large capital to work. Live example of a JIT MEV bot https://etherscan.io/address/0xa69babef1ca67a37ffaf7a485dfff3382056e78c 
+- Strategy's next frontier: use live mempool defi transaction data to perform JIT liquidity sandwiching. When a large DeFi transaction is detected, send a private transaction bundle that frontruns the target tx by providing large amounts of liquidity. The target tx is then followed in the bundle, and finally the second 'leg' of the sandwich is the liquidity pulling transaction. The JIT bot will have gathered the trading fees + the MEV from the manipulated slippage. This demands large capital to work. Live example of a JIT MEV bot https://etherscan.io/address/0xa69babef1ca67a37ffaf7a485dfff3382056e78c
 
 Current syntropy public chain data:
     - Cosmos
@@ -79,10 +81,11 @@ Tokens that are currently traded on most of these chains:
 ### Reproducing findings from medium article
 - [x] Script to display past APY data for a specific Curve pool
 - [x] Script to display past APY data for multiple Curve pools, on the same chain
-- [ ] APY data for Curve pools on multiple chains
+- [x] APY data for Curve pools on multiple chains
 - [ ] Compute theoretical max strategy APY under various assumptions
-    - [ ] Stay in stables, with hindsight
-    - [ ] Stay in stables+ETH, with hindsight
+    - [ ] No rebalancing fees, ignore impermanent loss, choose best-of-n APY, fixed rebalancing period
+
+
 
 ### Experiment with realistic strategy
     - [ ] Stables without hindsight
