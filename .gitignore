@@ -1,2 +1,5 @@
+providers_eth.env
+providers_arb.env
+providers_matic.env
 .env
 __pycache__
