@@ -2,6 +2,7 @@
 # Supports the following features:
 # - Global concurrency limit (max number of requests that can be made at the same time)
 # - Individual timeout for each request
+# - Individual cooldown time for each request
 # - Exponential back-off for failed requests
 # - Retry with another server on transient errors
 # - Global timeout for the whole batch
@@ -10,13 +11,14 @@
 import asyncio
 
 class Dispatcher:
-    def __init__(self, servers, timeout_individual, timeout_total, concurrency=128, exp_factor=2, max_attempts=5):
+    def __init__(self, servers, timeout_individual, timeout_total, concurrency=128, exp_factor=2, max_attempts=5, cooldown=0.25):
         self.servers = servers
         self.timeout_individual = timeout_individual
         self.timeout_total = timeout_total
         self.concurrency = concurrency
         self.exp_factor = exp_factor
         self.max_attempts = max_attempts
+        self.cooldown = cooldown
         self.available_servers = asyncio.Queue()
 
     def send_requests(self, coroutines):
@@ -46,6 +48,10 @@ class Dispatcher:
                 # Wait for a free slot from the semaphore before making the request
                 async with self.semaphore:
                     result = await asyncio.wait_for(coroutine(web3), timeout=self.timeout_individual)
+                    # If a cooldown time is set, then wait for it.
+                    if self.cooldown > 0:
+                        await asyncio.sleep(self.cooldown)
+                    # Put the server back to the queue
                     self.available_servers.put_nowait(web3)
                     return result
             except Exception as e:
