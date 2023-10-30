@@ -11,7 +11,7 @@
 import asyncio
 
 class Dispatcher:
-    def __init__(self, servers, timeout_individual, timeout_total, concurrency=128, exp_factor=2, max_attempts=5, cooldown=0.25):
+    def __init__(self, servers, timeout_individual, timeout_total, concurrency=128, exp_factor=2, max_attempts=5, cooldown=0):
         self.servers = servers
         self.timeout_individual = timeout_individual
         self.timeout_total = timeout_total
@@ -19,57 +19,47 @@ class Dispatcher:
         self.exp_factor = exp_factor
         self.max_attempts = max_attempts
         self.cooldown = cooldown
-        self.available_servers = asyncio.Queue()
+        self.available_servers = asyncio.Queue()  # server queue
 
-    def send_requests(self, coroutines):
-        # Fill up the queue with servers
-        for provider in self.servers:
-            self.available_servers.put_nowait(provider)
-        # Create a semaphore and an event loop, and impose a total timeout
-        self.semaphore = asyncio.Semaphore(self.concurrency)
-        loop = asyncio.get_event_loop()
-        future = asyncio.ensure_future(
-            asyncio.wait(
-                [self._request(coro) for coro in coroutines],
-                timeout=self.timeout_total,
-                return_when=asyncio.ALL_COMPLETED
-            )
-        )
-        done_futures, _ = loop.run_until_complete(future)
-        # Get result from futures
-        results = [fut.result() for fut in done_futures if not fut.cancelled() and fut.exception() is None]
-        return results
+    async def gather_with_concurrency(self, n, *tasks):
+        semaphore = asyncio.Semaphore(n)
+
+        async def sem_task(task):
+            async with semaphore:
+                return await task
+        return await asyncio.gather(*(sem_task(task) for task in tasks))
 
     async def _request(self, coroutine):
         attempt = 0
-        web3 = await self.available_servers.get()
+        web3 = await self.available_servers.get()  # get a server from queue
         while attempt < self.max_attempts:
             try:
-                # Wait for a free slot from the semaphore before making the request
-                async with self.semaphore:
-                    result = await asyncio.wait_for(coroutine(web3), timeout=self.timeout_individual)
-                    # If a cooldown time is set, then wait for it.
-                    if self.cooldown > 0:
-                        await asyncio.sleep(self.cooldown)
-                    # Put the server back to the queue
-                    self.available_servers.put_nowait(web3)
-                    return result
+                result = await asyncio.wait_for(coroutine(web3), timeout=self.timeout_individual)  # make the request
+                if self.cooldown > 0:
+                    await asyncio.sleep(self.cooldown)  # if cooldown is set, then wait
+                self.available_servers.put_nowait(web3)  # put the server back to the queue
+                return result
             except Exception as e:
-                # If the exception contains: timeout, connection error, or server error, then retry
                 s = str(e).lower()
                 if "timeout" in s or "connection error" in s or "server error" in s:
-                    # Increase the attempt count and wait for an exponentially back-off time
                     attempt += 1
                     if attempt >= len(self.servers):
                         break
-                    await asyncio.sleep(0.1 * self.exp_factor ** attempt)
-                    # Replace the problematic provider with another one from the list
-                    web3 = await self.available_servers.get()
+                    await asyncio.sleep(0.1 * self.exp_factor ** attempt)  # wait for an exponentially back-off time
+                    web3 = await self.available_servers.get()  # replace the problematic provider
                 else:
-                    # If the exception is not one of the above, then return None
                     print("Unknown exception: ", e)
                     return None
-                
-        # Too many attempts, return None
         print("Too many attempts")
         return None
+
+    def send_requests(self, coroutines):
+        # fill up the server queue
+        for provider in self.servers:
+            self.available_servers.put_nowait(provider)
+
+        loop = asyncio.get_event_loop()
+        tasks = [self._request(coro) for coro in coroutines]
+        results = loop.run_until_complete(self.gather_with_concurrency(self.concurrency, *tasks))
+
+        return results
