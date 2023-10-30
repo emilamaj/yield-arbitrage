@@ -4,5 +4,7 @@
     "0x14756A5eD229265F86990e749285bDD39Fe0334F": "Cannot decode output",
     "0x2dabF79E16ceb92B651651f47b6E835C9DB5828A": "Cannot decode output",
     "0x5DAC17902066D261e3701e6f52150A614cd8bdE7": "Execution reverted + Cannot decode output",
-    "0xC7DE47b9Ca2Fc753D6a2F167D8b3e19c6D18b19a": "Cannot decode output"
+    "0xC7DE47b9Ca2Fc753D6a2F167D8b3e19c6D18b19a": "Cannot decode output",
+    "0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919": "Unrealistic APY, untrustworthy token",
+    "0x618788357D0EBd8A37e763ADab3bc575D54c2C7d": "Broken APY, untrustworthy token"
 }
